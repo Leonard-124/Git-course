@@ -1,0 +1,119 @@
+
+
+body {
+    width: 1240px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: black;
+}
+.logo {
+    height: 6rem;
+    background-color: rgb(240, 240, 235);
+    
+}
+nav {
+    height: 5rem;
+    background-color: rgb(60, 146, 86); 
+    text-align: center;
+    border-radius: 10px;
+    padding: 20px;
+}
+nav a {
+    font-weight: bolder;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 25px;
+}
+ a:link, a:visited {
+    color: darkgrey;
+}
+ a:hover, a:active {
+    color: #fdfcb3;
+}
+.log_in {
+    height:35rem ;
+    background-color: rgba(87, 63, 63, 0.788);
+    border-radius: 50px;
+    padding-left: 70px;
+}
+
+.footer {
+    height: 8rem;
+    background-color: rgb(201, 211, 253);
+    border-radius: 20px;
+    padding-left: 50px;
+}
+.b1 {
+border-style: solid;
+height: 4rem;
+width: 350px;
+border-radius: 10px;
+background-color: rgba(97, 93, 93, 0.815);
+margin: 10px;
+display: flex;
+}
+.b2 {
+    border-style: solid;
+    height: 4rem;
+    width: 350px;
+    border-radius: 10px;
+    background-color: rgba(97, 93, 93, 0.815);
+    margin: 10px;
+    display: flex;
+}
+.b3 {
+    border-style: solid;
+    height: 4rem;
+    width: 350px;
+    border-radius: 10px;
+    background-color: rgba(97, 93, 93, 0.815);
+    margin: 5px;
+    display: flex;
+}
+.b4 {
+    border-style: solid;
+    height: 4rem;
+    width: 350px;
+    border-radius: 10px;
+    background-color: rgba(97, 93, 93, 0.815);
+    margin: 5px;
+    display: flex;
+}
+.b5 {
+    border-style: solid;
+    height: 4rem;
+    width: 250px;
+    border-radius: 10px;
+    background-color: rgba(97, 93, 93, 0.815);
+    margin: 5px;
+    display: flex;
+}
+.b1:hover {
+    background-color: rgb(205, 211, 216);
+}.b2:hover {
+    background-color: rgb(205, 211, 216);
+}.b3:hover {
+    background-color: rgb(205, 211, 216);
+}
+.b4:hover {
+    background-color: rgb(205, 211, 216);
+}
+.b5:hover {
+    background-color: rgb(205, 211, 216);
+}
+
+.footer {
+    font-weight: bolder;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+    letter-spacing: 2px;
+}
+
+
+
+
+
+

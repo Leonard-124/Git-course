@@ -60,3 +60,16 @@ header h1 {
     color: red;
     height: 100px;
 }
+
+a:link {
+    color: blue;
+}
+
+a:hover {
+    color:white;
+}
+
+a:active {
+    color: darkgreen;
+}
+
