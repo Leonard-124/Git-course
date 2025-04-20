@@ -1,0 +1,21 @@
+
+.cart {
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid #4caf50;
+    border-radius: 10px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    margin: 10px 0;
+  }
+  
+  button {
+    margin-left: 10px;
+  }
+  
