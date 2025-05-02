@@ -1,0 +1,33 @@
+
+body {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.academics {
+    background-color: aqua;
+    width: 200px;
+
+}
+.financials {
+    background-color: blueviolet;
+    width: 200px;
+}
+.accomodation {
+    background-color: aquamarine;
+    width: 200px;
+}
+.examination {
+    background-color: coral;
+    width: 200px;
+}
+.settings {
+    background-color: cadetblue;
+    width: 200px;
+}
+.dashboard {
+    background-color: darkolivegreen;
+    width: 200px;
+}

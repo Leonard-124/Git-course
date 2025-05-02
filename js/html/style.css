@@ -1,0 +1,85 @@
+
+
+body {
+    max-width: 1340px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(images/f3.jpg);
+    /*background-position-x: center;
+    background-position-y: center;*/
+    background-size: cover;
+}
+header {
+    height: 150px;
+    width: auto;
+    background-color: rgba(247, 245, 242, 0.281);
+    justify-content: center;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+nav {
+    height: 70px ;
+    background-color: rgba(191, 181, 247, 0.349);
+    opacity:75%;
+    justify-content: center;
+    padding-top: 10px;
+
+}
+main {
+    height: 310px ;
+    background-color: rgba(182, 151, 211, 0.514);
+    opacity: 75%;
+    justify-content: center;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding-top: 10px;
+    padding-bottom: 18px;
+    overflow: none;
+}
+footer {
+    height: 100px ;
+    background-color:rgba(79, 79, 88, 0.164);
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    margin-top: 1px;
+    
+}
+
+span {
+    color: gold;
+    background-color:rgba(255, 255, 255, 0.452);
+    letter-spacing: -1px;
+    margin: 20px;
+    border-radius: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+
+nav a {
+    padding: 10px;
+    text-decoration: none;
+    font-style: italic;
+    color: black;
+    font-size: 17px;
+    font-weight: bolder;
+}
+.form {
+    padding-left: 10px;
+    font-size: 18px;
+    width: 50px;
+    border-style: 10px solid black;
+
+}
+a:hover {
+    color: white;
+}
+.Search {
+    font-size: 12px;
+    font-weight: bolder;
+    color: black;
+    margin: 0px;
+}
+

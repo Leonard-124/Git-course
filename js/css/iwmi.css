@@ -1,0 +1,75 @@
+
+
+body {
+    background-image: url(images/pic2.svg);
+    
+
+}
+*/* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: kumbh sans-serif;
+}*/
+.btn {
+    width: 1240px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+
+}
+header {
+    background-color: bisque;
+    height: 100px;
+}
+nav {
+   background-color:aliceblue;
+    height: 90px;
+    padding-top: 20px;
+}
+main {
+    background-color:rgba(82, 56, 56, 0.301);
+    height: 400px;
+    padding-top: 40px;
+}
+
+.art {
+    font-size: 25px;
+    font-weight: bolder;
+}
+footer {
+    background-color: crimson;
+    height: 110px;
+    padding-top: 20px;
+}
+
+nav a {
+    padding-left: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    color: black;
+}
+
+header img {
+    height: 100px;
+    image-rendering: left;
+    padding-right: 1100px;
+}
+
+header h1 {
+    color: red;
+    height: 100px;
+}
+
+a:link {
+    color: blue;
+}
+
+a:hover {
+    color:white;
+}
+
+a:active {
+    color: darkgreen;
+}
+

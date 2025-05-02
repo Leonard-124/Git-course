@@ -1,0 +1,147 @@
+
+body {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(163, 153, 138, 0.767);
+}
+.head {
+    background-color: rgba(0, 0, 0, 0.822);
+    color: white;
+    align-items: center;
+    letter-spacing: -4px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    text-decoration: underline overline;
+
+}
+ h1 {
+    align-items: center;
+
+}
+.navi {
+    text-align: center;
+    display: flex;
+    justify-content: flex-end;
+
+}
+ a {
+    text-decoration: none;
+    color: rgb(0, 143, 83);
+    padding: 10px;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: bolder;
+}
+.navi form{
+    color: rgb(253, 253, 253);
+    font-size: 20px;
+    margin-right: 200px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: rgb(3, 3, 3);
+    box-shadow: black;
+    margin-top: 2px;
+}
+.inp {
+    border-radius: 10px;
+    background-color: bisque;
+    font-size: 17px;
+    width: 70px;
+    cursor: pointer;
+
+}
+.btn {
+    border-radius: 7px;
+    font-size: 15px;
+    font-family:'Trebuchet MS';
+    font-weight: bolder;
+    animation: timeline 1sec;
+    cursor: pointer;
+}
+ a:hover {
+    color: black;
+    text-decoration: underline;
+
+}
+main {
+    text-align: center;
+
+}
+.dot {
+    margin-left: auto;
+    margin-right: auto;
+}
+#img {
+    height: 250px;
+    width:500px;
+    margin: 10px;
+    border-radius: 10px;
+} 
+@media only screen and (max-width:768px){
+    body{
+        background-color: lightblue;
+        font-size: 1rem;
+    }
+}
+
+.diva {
+    display: flex;
+    min-height: 200px;
+    justify-content: space-evenly;
+}
+
+.p {
+    background-color: antiquewhite;
+    margin: 7px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+#fomo {
+    font-size: 20px;
+    color: rgb(163, 241, 37);
+    padding-left: 10px;
+    float: right;
+
+}
+
+.in {
+    font-size: 20px;
+    width: 250px;
+    line-height: 20px;
+    border-radius: 7px;
+    opacity: 75%;
+    cursor: pointer;
+    margin: 5px;
+    box-shadow:blue;
+    background-image: url(images/f4.png);
+
+}
+
+.in:hover, .in:active{
+    background-color: cornflowerblue;
+    color: black;
+}
+#password {
+    width: 220px;
+}
+
+.footer {
+    border: 1px solid rgba(22, 19, 19, 0.541);
+    background-image: url(images/bk6.jpg);
+    object-fit: cover;
+}
+ .h22 {
+    letter-spacing: -2px;
+    text-align: right;
+    margin-right: 200px;
+    text-shadow: black;
+    text-decoration: underline;
+
+}
+.divy {
+    height: 50px;
+    width: auto;
+    background-color: black;
+}

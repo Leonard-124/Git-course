@@ -1,0 +1,227 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diy sols</title>
+    <link rel="stylesheet" href="diy.css">
+
+<body>
+ <header>
+        <div class="divv">
+            <span class="sp">LeODavinCi</span>
+        </div>
+        <div class="divv">
+            <label for="Search" class="lab">Enter</label>
+            <input type="search" id="Search" placeholder="Search">
+        </div>
+       <div class="divv">
+        <a href="diy2.html" id="sign">Sign in</a>
+       </div>
+        <div class="divv">
+            <a href="" id="cat">Cart</a>
+        </div>
+        <div class="dip">
+            <h2>Home</h2>
+        </div>
+    </header>
+    
+    <main>
+        <button onclick="bye()">click</button>
+        <h1 id="pye"> </h1>
+        <h2>Welcome to LeODavinCi where we share innovative videos and art </h2>
+        <h3>Most popular <span id="art">art</span>
+        <div class="imo">
+            <div class="im">
+                <img src="images2/VR.jpg" alt="i1" id="mi">
+            </div>
+            <div class="im">
+                <img src="images2/robot.jpg" alt="i2" id="mi">
+            </div>
+            <div class="im">
+                <img src="images2/headphone.jpg" alt="i3"id="mi">
+            </div>
+            <div class="im">
+                <img src="images2/f5.png" alt="i3"id="mi">
+            </div>
+            <div class="im">
+                <img src="images2/f4.png" alt="i4"id="mi">
+            </div>
+            <div class="im">
+                <img src="images2/f3.jpg" alt="i4" id="mi">
+            </div>
+            <div class="im">
+                <img src="images2/f2.jpg" alt="i4" id="mi">
+            </div>
+        </div>
+        <h2>Popular innovative videos</h2>
+        <div class="vido">
+            <div class="vid">
+             <video src="videos1/diy1.mp4" id="di"></video>
+             <button id="plpase">Play</button>
+            </div>
+            <div class="vid">
+                <video src="videos1/diy2.mp4"id="di"></video>
+                <button id="plpase">Play</button>
+            </div>
+            <div class="vid">
+                <video src="videos1/diy3.mp4"id="di"></video>
+                <button id="plpase">Play</button>
+            </div>
+            <div class="vid">
+                <video src="videos1/diy4.mp4"id="di"></video>
+                <button id="plpase">Play</button>
+            </div>
+            <div class="vid">
+                <video src="videos1/diy5.mp4"id="di"></video>
+                <button id="plpase">Play</button>
+            </div>
+            <div class="vid">
+                <video src="videos1/diy6.mp4"id="di"></video>
+                <button id="plpase">Play</button>
+            </div>
+            <div class="vid">
+                <video src="videos1/diy7.mp4"id="di"></video>
+                <button id="plpase">Play</button>
+            </div>
+        </div>
+        <h2>Share with us your innovative videos and art</h2>
+        <div class="upload-container">
+            <h2>Post Your DIY Video or Photo</h2>
+            <form id="uploadForm" enctype="multipart/form-data">
+                <div class="form-group">
+                    <label for="mediaFile">Choose File(Photo/video):</label>
+                    <input type="file" id="mediaFile" name="mediaFile" accept="image/*,video/*" onchange="previewFile()">
+                    <p class="error-message" id="fileError"></p>
+                </div>
+                <div class="form-group">
+                    <label for="caption">Caption (Optional):</label>
+                    <textarea name="caption" id="caption" rows="3" placeholder="Write something about your post"></textarea>
+                </div>
+                <div id="preview-container">
+             
+                    <div id="preview">
+                        <h3>Preview</h3>
+                    </div>
+                    <button type="submit">Post</button>
+                </div>
+           
+            </form>
+    
+        </div>
+        
+        <h2 class="xa">Market place for precious art pieces</h2>
+        <h1 class="bn">Buy Now!!</h1>
+        <div class="imo">
+            <div class="im">
+                <img src="images2/VR.jpg" alt="i1" id="mi">
+                <span>
+                    <h4>VR Headset</h4>
+                    <p>$299.29</p>
+                    <button id="buy">Buy now</button>
+                </span>
+            </div>
+            <div class="im">
+                <img src="images2/robot.jpg" alt="i2" id="mi">
+                <span>
+                    <h4>Robot Kitt</h4>
+                    <p>$102.29</p>
+                    <button id="buy">Buy now</button>
+                </span>
+            </div>
+            <div class="im">
+                <img src="images2/headphone.jpg" alt="i3"id="mi">
+                <span>
+                    <h4>Headphone Spa77</h4>
+                    <p>$101.29</p>
+                    <button id="buy">Buy now</button>
+                </span>
+            </div>
+            <div class="im">
+                <img src="images2/f5.png" alt="i3"id="mi">
+                <span>
+                    <h4>Chisango Art</h4>
+                    <p>$50.19</p>
+                    <button id="buy">Buy now</button>
+                </span>
+            </div>
+            <div class="im">
+                <img src="images2/f4.png" alt="i4"id="mi">
+                <span>
+                    <h4>Bradev s4</h4>
+                    <p>$89.69</p>
+                    <button id="buy">Buy now</button>
+                </span>
+            </div>
+            <div class="im">
+                <img src="images2/f3.jpg" alt="i4" id="mi">
+                <span>
+                    <h4>Monalisa 1</h4>
+                    <p>$304.91</p>
+                    <button id="buy">Buy now</button>
+                </span>
+            </div>
+            <div class="im">
+                <img src="images2/f2.jpg" alt="i4" id="mi">
+                <span>
+                    <h4>Cuavo HR</h4>
+                    <p>$121.69</p>
+                    <button id="buy">Buy now</button>
+                </span>
+            </div>
+        </div>
+           
+        </div>
+        <h4>Filter by categories:</h4>
+    </main>
+    <footer>
+        <div class="fc">
+            <div class="ft">
+                <a href="">Contact us</a>
+            </div>
+            <div class="ft">
+                <a href="">Privacy Policy</a>
+            </div>
+        </div>
+        <div class="tf">
+            <div class="tt">
+                <div>
+                    <a href="">WhatsApp</a>
+                </div>
+                <div>
+                    <a href="">Facebook</a>
+                </div>
+                <div>
+                    <a href="">Twitter</a>
+                </div>
+                <div>
+                    <a href="">Rednote</a>
+                </div>
+                <div>
+                    <a href="">Instagram</a>
+                </div>
+            </div>
+            <div class="tt" id="vx">
+                <div>
+                    <a href="">About</a>
+                </div>
+                <div>
+                    <a href="">Community</a>
+                </div>
+                <div>
+                    <a href="">Support</a>
+                </div>
+                <div>
+                    <a href="">Youtube</a>
+                </div>
+                <div>
+                    <a href="">More</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="upload.js"></script>
+    <script src="postcontroller.js"></script>
+</body>
+</html>

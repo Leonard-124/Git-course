@@ -1,0 +1,9 @@
+{
+    "workbench.experimental.cloudChanges.partialMatches.enabled": true,
+    "C_Cpp.default.compilerPath": "c:\\Users\\pc\\LEO\\js\\c\\cpp\\index.cpp",
+    "C_Cpp.errorSquiggles": "disabled",
+    "editor.cursorStyle": "line-thin",
+    "editor.cursorBlinking": "smooth",
+    "editor.cursorWidth": 1,
+    "editor.cursorSmoothCaretAnimation": "off"
+}

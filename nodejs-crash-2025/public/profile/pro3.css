@@ -1,0 +1,15 @@
+
+body {
+    background-color: rgb(169, 224, 169);
+}
+#me {
+    font-size: 20px;
+    color: blue;
+    letter-spacing: 1px;
+    text-decoration: underline;
+}
+
+p {
+font-size: 17px;
+font-weight: bold;
+}

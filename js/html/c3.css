@@ -1,0 +1,82 @@
+
+body {
+    background-color: rgba(0, 0, 0, 0.062);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.logo h1{
+    color: red;
+    width: 120px;
+    font-family: sans-serif;
+    letter-spacing: -6px;
+    background-color: bisque;
+    margin-left: 20px;
+}
+nav {
+    margin-left: 550px;
+    top: 100px;
+    color: rgb(69, 69, 128);
+    font-size: 20px;
+    margin-bottom: 50px;
+    object-fit: cover;
+}
+
+nav a {
+    text-decoration: none;
+    color: sandybrown;
+    margin-left: 10px;
+    font-family: 'Gill Sans';
+
+}
+.flex {
+    min-height: 250px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-grow: 50px;
+
+}
+.bx {
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+}
+.hh2 {
+    text-align: center;
+    font-style: italic;
+}
+span {
+    color: rgba(66, 139, 59, 0.863);
+    background-color: rgb(187, 228, 207);
+}
+.login {
+    display: flex;
+    min-height: 200px;
+    justify-content:flex-end;
+    font-size: large;
+}
+.log {
+    color: teal;
+    font-size: larger;
+    border-radius: 10px;
+    width: 200px;
+    border: 1px solid gray;
+    margin-left: 1000px;
+    padding: 25px;
+}
+li a {
+    text-decoration: none;
+    color: rgba(44, 49, 49, 0.801);
+}
+
+a:hover, a:active {
+    color: red;
+    background-color: gray;
+    cursor: pointer;
+}
+.bx:hover {
+    flex-grow: 50px;
+    cursor: pointer;
+    touch-action: manipulation;
+}
+
+

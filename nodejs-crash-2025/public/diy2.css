@@ -1,0 +1,115 @@
+
+body{
+   max-width: 1100px;
+   background-color: grey;
+   text-align: center;
+   margin-left: auto;
+   margin-right: auto;
+}
+.container{
+    width: 900px;
+    height: 600px;
+    border: 1px solid gray;
+    background-color: rgba(0, 0, 0, 0.377);
+}
+header{
+    min-height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.d{
+    font: size 28px;
+    color: black;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 1px;
+}
+#spi {
+    text-decoration: overline underline;
+    color: indigo;
+    letter-spacing:-3px;
+    font-size: 30px;
+    background-color: antiquewhite;
+    border-radius: 4px;
+}
+
+.d:hover{
+    color: darkgrey;
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+.hh {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    letter-spacing:-1px;
+    font-size: 22px;
+    color: rgb(216, 33, 33)
+}
+@keyframes bounce {
+    0%, 20%, 50%,80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform:translateY(-10px);
+    }
+    60%{
+        transform: translateY(-5px);
+    }
+}
+.hh{
+    animation:bounce 1s infinite;
+}
+.he {
+    font-size: 25px;
+}
+
+label{
+    font-size: 25px;
+    color: rgb(12, 12, 14);
+    letter-spacing: 1.5px;
+    font-family:serif;
+}
+input {
+    width:200px;
+    font-size: 22px;
+    font-weight: bolder;
+    background-color: rgb(207, 223, 238);
+    border: 1px solid rgb(128, 128, 128);
+    border-radius: 5px;
+}
+button{
+    margin-top: 10px;
+    font-size:20px;
+    border-radius:7px;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+
+#forgot{
+    margin-right: 10px;
+    font-size: 18px;
+    text-decoration: none;
+    cursor: pointer;
+}
+#forgo{
+    font-size: 20px;
+    color: rgb(230, 120, 120);
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#pp {
+    font-size: 20px;
+    color: rgb(59, 177, 55);
+    cursor: pointer;
+    text-decoration: none;
+    margin-right: 10px;
+}
+.cop{
+    letter-spacing: 1px;
+    font-size: 17px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+

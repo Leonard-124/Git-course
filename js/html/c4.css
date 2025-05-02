@@ -1,0 +1,220 @@
+
+/*Header section*/
+header {
+    min-height: 120px;
+    width: 100%;
+    background-color:white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+
+}
+.h11 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode';
+    font-weight: bolder;
+    font-size: 40px;
+    margin-right: 150px;
+}
+.sp {
+    font-size: 55px;
+    text-decoration:underline;
+    color: silver;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: -5px;
+    text-transform: uppercase;
+}
+
+.amp {
+    color:blue;
+    font-size: 35px;
+    flex-wrap: nowrap;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    letter-spacing: 2px;
+}
+
+/*nav section*/
+nav {
+    min-height: 80px;
+    width: 100%;
+    background-color: rgba(100, 184, 118, 0.774)
+    ;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+.anka a{
+    text-decoration: none;
+    color:black;
+    font-size: 24px;
+    letter-spacing: -3px;
+    padding: 15px;
+    font-weight: bolder;
+}
+
+/*main section*/
+main {
+    height: 1100px;
+    width: 100%;
+    background-color:whitesmoke;
+    padding-top: 5px;
+}
+footer {
+    height: 350px;
+    width: 100%;
+    background-color:gray;
+}
+.flex {
+    display: flex;
+    justify-content: space-evenly;
+    min-height: 250px;
+    flex-wrap: wrap;
+}
+
+.fil {
+    flex-wrap: nowrap;
+}
+img {
+    height: 180px;
+    width: 180px;
+    border-radius: 5px;
+}
+figcaption {
+    margin-top: -7px;
+}
+
+.hur {
+    background-color: black;
+    color: whitesmoke;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.pa {
+    text-transform: uppercase;
+    text-decoration: overline;
+    color: red;
+    letter-spacing: -2px;
+}
+
+.ig {
+    height: 40px;
+    width: 100%;
+    animation-duration: 3s;
+    animation-name: inherit;
+
+}
+.ski {
+    background-color:greenyellow;
+    height: 10px;
+    width: 100%;
+    border: 1px solid black;
+}
+.in {
+    width: 190px;
+    height: 25px;
+    border-radius: 7px;
+    margin: 4px;
+    font-size: 17px;
+    border-radius: 1px solid grey;
+}
+
+.for {
+    float: left;
+}
+
+.fot {
+    min-height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.bl a {
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.lam {
+    display: flex;
+    justify-content:space-around;
+    border: 0.5px solid gray;
+    overflow:scroll;
+    flex-wrap: nowrap;
+}
+
+.po {
+    font-size: 26px;
+    border: 0.5px solid rgba(128, 128, 128, 0.521);
+    border-radius: 7px;
+    background-color:white;
+
+}
+a:hover {
+    color: gold;
+    text-decoration: underline;
+}
+
+label {
+    font-size: 20px;
+    color: brown;
+    font-family: sans-serif;
+    letter-spacing:  2px; 
+    background-color: antiquewhite;
+}
+input {
+    width: 250px;
+    border-radius: 10px;
+    height: 30px;
+    border: 1px solid grey;
+    background-image: url(images/f4.png);
+    opacity: 90%;
+
+}
+
+@keyframes slideInLeft {
+    from{
+        transform:translateX(-300px);
+    }
+    to{
+        transform:translateX(0);
+    }
+}
+.hur{
+    animation-name:slideInLeft;
+    animation-duration: 10s;
+    animation-timing-function: ease-in;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction:normal;
+    animation-fill-mode: both;
+    transform: translateX(-150px);
+
+}
+button {
+    cursor: pointer;
+    width: 250px;
+    border-radius: 4px;
+    font-size: 18px;
+    color: white;
+    background-color: black;
+}
+h4 {
+    background-color: gray;
+    padding-top: 90px;
+    padding-bottom: 15px;
+}
+
+
+
+
+
+   
+
+
+
+
+
+
